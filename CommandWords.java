@@ -40,11 +40,12 @@ public class CommandWords
         return false;
     }
     
-    public void showAll() 
+    public String showAll() 
     {
-        for(String command: validCommands) {
-            System.out.print(command + "  ");
+        String commands = "";
+        for(String command : validCommands) {
+            commands += command + " ";
         }
-        System.out.println();
+        return commands;
     }
 }

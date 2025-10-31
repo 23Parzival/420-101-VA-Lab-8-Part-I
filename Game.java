@@ -195,7 +195,7 @@ public class Game
         }
         else {
             // signal that we want to quit
-            return true;  
+            return true;
         }
     }
     
